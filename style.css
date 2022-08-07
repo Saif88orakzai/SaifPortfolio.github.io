@@ -1,0 +1,440 @@
+.container {
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+#top-left-image {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    align-content: center;
+}
+
+.text-uppercase {
+    text-align: left;
+    font-size: 70px;
+    font-family: 'Rubik';
+    font-weight: 500;
+}
+
+#upper_text {
+    text-align: left;
+    font-size: 40px;
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-display: flex;
+}
+
+#lower_text {
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-display: flex;
+}
+
+div {
+    display: block;
+}
+
+#text_div {
+    margin-top: 100px;
+}
+
+.button {
+    background-color: #4458dc;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    display: inline;
+    color: #fff;
+    letter-spacing: 0;
+    font-family: 'Rubik';
+    font-weight: 1000;
+    font-size: 14px;
+    line-height: 46px;
+    width: 150px;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-right: 30px;
+    border: none;
+    margin-top: 10px;
+  }
+  
+  .button1:hover {
+    background-color: #fff;
+    color: black;
+    border: solid 2px #4458dc;
+  }
+  
+  .button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4458dc;
+  }
+  
+  .button2:hover {
+    background-color: #4458dc;
+    color: white;
+  }
+
+
+.d-flex {
+    align-content: center;
+}
+
+@media (max-width:992px) {
+    img#top-left-image {
+      display: none;
+    }
+  }
+
+  @media (max-width:992px) {
+    img#middle-left-image {
+      display: none;
+    }
+  }
+
+  @media (max-width:992px) {
+    .button#btnhm, .button#btngc {
+      display: none;
+    }
+  }
+
+  @media (max-width: 992px) {
+    .col-lg-5#middle-text {
+      margin-left: 0;
+    }
+  }
+
+  @media (max-width: 992px) {
+    .col-lg-7#hello-text-box {
+      margin-top: -50px;
+    }
+  }
+
+#middle-left-image {
+  width: 100%;
+  margin-right: 100px;
+}
+
+#middle-text-heading {
+  font-family: 'Rubik';
+  text-align: left;
+  size: 50px;
+  font-weight: 600;
+  margin: 0px 0px 15px;
+}
+
+#middle-text {
+  margin-left: 100px;
+}
+
+#special-text {
+  font-family: 'Rubik';
+  color: #4458dc;
+}
+
+#what-text {
+  font-weight: 500;
+  font-size: 48px;
+}
+
+#icons {
+  height: 50px;
+  width: auto;
+  margin-top: 60px;
+}
+
+.icon-div {
+  margin-left: auto;
+  margin-right: auto;
+  height: 190px;
+}
+
+#bottom-row {
+  margin-top: 35px;
+}
+
+.card-body {
+  height: 190px;
+  width: auto;
+}
+
+.card-body#card1 {
+  background-color: #ffd43b;
+  border-radius: 0  0  3px  3px;
+}
+
+.card-body#card2 {
+  background-color: #74c0fc;
+  border-radius: 0  0  3px  3px;
+}
+
+.card-body#card3 {
+  background-color: #63e6be;
+  border-radius: 0  0  3px  3px;
+}
+
+.card-body#card4 {
+  background-color: #e599f7;
+  border-radius: 0  0  3px  3px;
+}
+
+.card-body#card5 {
+  background-color: #b197fc;
+  border-radius: 0  0  3px  3px;
+}
+
+.card-body#card6 {
+  background-color: #ff8787;
+  border-radius: 0  0  3px  3px;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+#cardd-1:hover {
+  border: solid 4px #ffd43b;
+}
+
+#cardd-2:hover {
+  border: solid 4px #74c0fc;
+}
+
+#cardd-3:hover {
+  border: solid 4px #63e6be;
+}
+
+#cardd-4:hover {
+  border: solid 4px #e599f7;
+}
+
+#cardd-5:hover {
+  border: solid 4px #b197fc;
+}
+
+#cardd-6:hover {
+  border: solid 4px #ff8787;
+}
+
+#email-box {
+  height: 500px;
+  border-radius: 25px;
+  border: solid 4px #4458dc;
+}
+
+#contact-heading {
+  text-align: left;
+  color: #4458dc;
+  margin-top: 50px;
+  font-family: 'Rubik';
+  font-weight: 550;
+  font-size: 2rem;
+}
+
+#lets-heading {
+  font-family: 'Rubik';
+  text-align: left;
+  font-size: 50px;
+  opacity: 0.9;
+}
+
+#feel-heading {
+  font-family: 'Rubik';
+  text-align: left;
+  margin-top: 20px;
+  opacity: 0.7;
+}
+
+#image-planet {
+  width: 180px;
+  box-sizing: border-box;
+  margin-left: auto;
+}
+
+.form-control {
+  border: none;
+  background-color: rgb(242, 242, 242);
+}
+
+.input-filds {
+  border: none;
+  resize: none;
+  background-color: rgb(242, 242, 242);
+  padding: 1rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  outline: 0px;
+}
+
+.input-filds#Name {
+  margin-bottom: 15px;
+}
+
+.input-filds#Email {
+  margin-bottom: 15px;
+}
+
+.input-filds#Message {
+  text-align: left;
+  vertical-align: text-top;
+  padding-bottom: 100px;
+  margin-bottom: 5px;
+}
+
+.input-box {
+  margin-top: 100px;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.dashed-box {
+  position: relative;
+  z-index: 1;
+  border: solid 0.001px #4458dc;
+  height: 80vh;
+  margin-bottom: 2em;
+  margin-top: 6em;
+  padding-bottom: 50px;
+  background-color: #b197fc;
+  border-radius: 100px;
+}
+
+@media (max-width: 992px) {
+  .dashed-box {
+    height: 100%;
+    border-radius: 60px;
+  }
+}
+
+@media (max-width: 992px) {
+  .col-sm-4 {
+    padding-top: 15px;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar-brand#navbar-name-color {
+    color: #7b8ff5;
+    font-size: 1.5rem;
+  }
+}
+
+#navbar-name-color {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Rubik';
+  font-weight: 200;
+}
+
+.green-box {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 100%;
+  opacity: 0.9;
+  mix-blend-mode: darken;
+}
+
+#vvvv {
+  height: 100%;
+  width: 100%;
+}
+
+.footer {
+  padding-top: 100px;
+}
+
+#ftr {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.button#Talk {
+  z-index: 30;
+}
+
+#saif {
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+#saif_img {
+  width: auto;
+  height: 100%;
+}
+
+#name-blue {
+  color: #4b4bba;
+}
+
+#middle-text-para {
+  font-family: 'Rubik';
+  font-size: 17px;
+  font-weight: 400;
+  opacity: 0.7;
+}
+
+.col-md-7 {
+  padding-left: 40px;
+}
+
+#get-in-touch {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2.9rem;
+  font-weight: 530;
+}
+
+#get-in-touch-para {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#video-button {
+  border-radius: 50px;
+}
+
+#saif_contact {
+  font-family: 'Rubik';
+  font-size: 22px;
+}
+
+#saif_contact_p {
+  font-size: 19px;
+  opacity: 0.8;
+}
+
+#copyright {
+  font-size: 20px;
+  opacity: 0.9;
+}
+
+span {
+  color: #4b4bba;
+}
+
+.button {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#rrrr {
+  text-decoration: none;
+}
+
+*{
+  position: relative;
+}
+
+body {
+  overflow-x: hidden;
+}
